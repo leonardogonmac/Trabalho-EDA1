@@ -64,8 +64,8 @@ int main(void){
     char* linhas[n];
 
     for(int i = 0; i < n; i++){
-        char* frase = malloc(sizeof(char)*100000);
-        fgets(frase, 100000, stdin);
+        char* frase = malloc(sizeof(char)*1000000);
+        fgets(frase, 1000000, stdin);
         frase[strlen(frase)] = '\0';
         linhas[i] = frase;        
     }
